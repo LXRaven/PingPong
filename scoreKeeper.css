@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+}
+#image{
+width: 100%
+}
+.container{
+width: 50%;
+margin: 40px auto;
+text-align: center;
+box-shadow: 2px 1px 10px lightgrey;
+}
+h1{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid lightgrey;
+}
+
+h2{
+    font-size: 50px;
+    text-align: left;
+    padding: 0px 10px 0px 10px;
+}
+
+h3{
+    font-size: 15px;
+    opacity: 40%;
+    text-align: left;
+    padding: 0px 10px 10px 10px;
+}
+#selector{
+    text-align: left;
+    padding: 0px 10px 10px 10px;
+    font-weight: bold;
+}
+select{
+    border-radius: 35%;
+    padding: 5px;
+}
+#buttons{
+    padding:0px;
+    margin: 0px;
+    width: 100%;
+}
+button{
+    font-size: 15px;
+    width: 32%;
+    margin: 0px;
+    color: white;
+    padding:10px 5px;
+    border-radius: 10px;
+}
+#plOne{background-color: rgb(27, 228, 161);}
+#plTwo{background-color: rgb(74, 77, 233);}
+#reset{background-color: rgb(243, 51, 83);}
+
+#plOne:hover{background-color: rgb(13, 153, 106);}
+#plTwo:hover{background-color: rgb(46, 47, 155);}
+#reset:hover{background-color: rgb(173, 36, 59);}

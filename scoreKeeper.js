@@ -12,7 +12,7 @@ winScore.addEventListener('change', function () {
 })
 
 plOne.addEventListener('click', function (e) {
-    if (p1 < upTo) {
+    if (p1 < upTo && p2 < upTo) {
         p1++;
         scoreOne.innerText = p1;
         scoreTwo.innerText = p2;
@@ -28,7 +28,7 @@ plOne.addEventListener('click', function (e) {
 
 plTwo.addEventListener(
     'click', function (e) {
-        if (p2 < upTo) {
+        if (p2 < upTo && p1 < upTo) {
             p2++;
             scoreOne.innerText = p1;
             scoreTwo.innerText = p2;

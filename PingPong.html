@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="scoreKeeper.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://dbdzm869oupei.cloudfront.net/img/sticker/large/10870.jpg" id="image">
+        <h1> Ping Pong Score Keeper</h1>
+        <h2><span id="scoreOne">0</span> to <span id="scoreTwo">0</span></h2>
+        <h3>Use the buttons below to keep score</h3>
+        <div id="selector"> <label for="upTo"> Playing To</label>
+            <select id="upTo" name="upTo">
+                <option>Sets</option>
+                <option>3</option>
+                <option>5</option>
+                <option>7</option>
+                <option>9</option>
+            </select>
+        </div>
+        <div id="buttons">
+            <button id="plOne">+1 Player One</button>
+            <button id="plTwo">+1 Player Two</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="scoreKeeper.js"></script>
+</body>
+
+</html>

@@ -1,15 +1,95 @@
-@media(min-width: 600px) and (max-width: 799px){
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+}
+#image{
+width: 100%
+}
+.container{
+width: 70%;
+margin: 40px auto;
+text-align: center;
+box-shadow: 2px 1px 10px lightgrey;
+}
+
+h1{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid lightgrey;
+}
+
+h2{
+    font-size: 50px;
+    text-align: left;
+    padding: 0px 10px 0px 10px;
+}
+
+h3{
+    font-size: 15px;
+    opacity: 40%;
+    text-align: left;
+    padding: 0px 10px 10px 10px;
+}
+#selector{
+    text-align: left;
+    padding: 0px 10px 10px 10px;
+    font-weight: bold;
+}
+select{
+    border-radius: 35%;
+    padding: 5px;
+}
+#buttons{
+    padding:0px;
+    margin: 0px;
+    width: 100%;
+}
+button{
+    font-size: 80%;
+    width: 32%;
+    height: 100%;
+    margin: 0px;
+    color: white;
+    padding:10px 3px;
+    border-radius: 10px;
+}
+#plOne{background-color: rgb(27, 228, 161);}
+#plTwo{background-color: rgb(74, 77, 233);}
+#reset{background-color: rgb(243, 51, 83);}
+
+#plOne:hover{background-color: rgb(13, 153, 106);}
+#plTwo:hover{background-color: rgb(46, 47, 155);}
+#reset:hover{background-color: rgb(173, 36, 59);}
+@media(max-width: 600px){
     .container{
-        width:60%;
+        width:70%;
+    }
+    button{
+        font-size: 60%;
     }
 }
-@media(min-width: 800px) and (max-width: 1119px){
+
+@media(min-width: 600px) and (max-width: 799px){
     .container{
         width:50%;
+    }
+}
+@media(min-width: 800px) and (max-width: 1199px){
+    .container{
+        width:40%;
+    }
+    button {
+        font-size: 90%;
     }
 }
 @media(min-width: 1200px){
     .container{
         width:40%;
+    }
+    button{
+        font-size: 100%;
     }
 }
